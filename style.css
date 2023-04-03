@@ -3,7 +3,7 @@ body {
   box-sizing: border-box;
   margin: 0;
   font-family: 'Open Sans', sans-serif;
-  background: linear-gradient(180deg, rgba(227, 255, 248, 0) 81.11%, rgba(227, 255, 248, 0.38) 99.03%);
+  background-color: #FFF;
   min-height: 100vh; 
 }
 
@@ -17,7 +17,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 58px;
+  margin-bottom: 65px;
 }
 
 ul {
@@ -45,10 +45,10 @@ ul {
 
 h1 {
   font-size: 49px;
-  line-height: 56px;
   color: #000;
   font-weight: normal;
   width: 490px;
+  margin: 0 0 32.5px;
 }
 
 h1 span {
@@ -58,9 +58,9 @@ h1 span {
 
 section p {
   font-size: 14px;
-  line-height: 28px;
+  line-height: 25px;
   color: #7D7987;
-  margin: 40px 0px
+  margin: 0 0 32.5px;
 }
 
 button {
@@ -95,7 +95,7 @@ footer {
   font-size: 14px;
   line-height: 28px;
   text-align: center;
-  margin-top: 80px;
+  margin-top: 170px;
 }
 
 footer a {
@@ -129,7 +129,7 @@ footer a {
   }
   main {
     display: flex;
-    gap: 20px;
+    gap: 30px;
     flex-direction: column;
   }
   h1 {
@@ -138,18 +138,18 @@ footer a {
   }
   button {
     width: 100%;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
   }
   .img-main {
     object-fit: cover;
-    height: 250px;
+    height: 200px;
   }
   footer {
-    margin-bottom: 20px;
+    margin: 60px 0;
   }
   #balls {
     position: relative;
-    height: 50px;
+    height: 25px;
     bottom: 0;
     right: 0;
   }
